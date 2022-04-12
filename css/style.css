@@ -6,11 +6,13 @@ body {
   background-color: white;
 }
 
-body,
-h1,
-p {
+body, h1, p {
   font-size: 12px;
   color: black;
+}
+
+a {
+  color: #767676;
 }
 
 .login-area {
@@ -19,18 +21,13 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 350px;
-  height: 140px;
   padding: 20px 16px;
   box-sizing: border-box;
   border: 1px solid #DBDBDB;
   border-radius: 5px;
 }
 
-.login-area a {
-  color: #767676;
-}
-
-.login-area .loginBtn {
+.loginBtn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,25 +39,25 @@ p {
   font-family: "SpoqaHanSansNeo-Regular";
 }
 
-.login-area .loginBtn img {
+.loginBtn img {
   width: 64px;
   height: 18px;
   margin-right: 4px;
+  margin-bottom: 3px;
 }
 
-.login-area .lock,
-.user {
+.lock, .user {
   width: 16px;
   height: 16px;
 }
 
-.login-area .findMenu {
+.findMenu {
   display: flex;
   float: left;
   align-items: center;
 }
 
-.login-area .findMenu .findID::after {
+.findMenu .findID::after {
   content: " ";
   display: inline-block;
   position: relative;
@@ -71,22 +68,22 @@ p {
   background-color: #8f8f8f;
 }
 
-.login-area .findMenu .findPW {
+.findMenu .findPW {
   position: relative;
   top: 1px;
 }
 
-.login-area .findMenu img, .findID {
+.findMenu img, .findID {
   margin-right: 4px;
 }
 
-.login-area .signUp {
+.signUp {
   display: flex;
   width: 65px;
   float: right;
   align-items: center;
 }
 
-.login-area .signUp img {
+.signUp img {
   margin-right: 4px;
 }
