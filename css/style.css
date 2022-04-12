@@ -1,22 +1,9 @@
-@import "reset.css";
-
-@font-face {
-  font-family: 'SpoqaHanSansNeo-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SpoqaHanSansNeo-Medium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import "./reset.css";
+@import "./font.css";
 
 body {
   font-family: "SpoqaHanSansNeo-Regular";
-  background-color: lightgray;
+  background-color: white;
 }
 
 body,
@@ -26,17 +13,11 @@ p {
   color: black;
 }
 
-.main {
-  display: block;
-  margin: 0 auto;
-  width: 400px;
-  height: 200px;
-  padding: 30px 25px;
-  box-sizing: border-box;
-  background-color: white;
-}
-
 .login-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 350px;
   height: 140px;
   padding: 20px 16px;
@@ -80,10 +61,10 @@ p {
 }
 
 .login-area .findMenu .findID::after {
-  position: relative;
-  top: 2px;
   content: " ";
   display: inline-block;
+  position: relative;
+  top: 2px;
   width: 1px;
   height: 12px;
   margin-left: 4px;
@@ -101,9 +82,9 @@ p {
 
 .login-area .signUp {
   display: flex;
+  width: 65px;
   float: right;
   align-items: center;
-  width: 65px;
 }
 
 .login-area .signUp img {
