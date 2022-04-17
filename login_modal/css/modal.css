@@ -83,7 +83,7 @@ label::before {
   margin-right: 8px;
   width: 22px;
   height: 22px;
-  background-image: url(/images/check-box_empty.png);
+  background-image: url(../images/check-box_empty.png);
 }
 
 .loginBtn {
@@ -161,7 +161,7 @@ label::before {
   width: 28px;
   height: 28px;
   float: left;
-  background-image: url(/images/google-logo.png);
+  background-image: url(../images/google-logo.png);
 }
 
 .facebookBtn {
@@ -176,7 +176,7 @@ label::before {
   width: 28px;
   height: 28px;
   float: left;
-  background-image: url(/images/facebook-logo.png);
+  background-image: url(../images/facebook-logo.png);
 }
 
 .naverBtn {
@@ -191,7 +191,7 @@ label::before {
   width: 28px;
   height: 28px;
   float: left;
-  background-image: url(/images/naver-logo.png);
+  background-image: url(../images/naver-logo.png);
 }
 
 .kakaoBtn {
@@ -207,5 +207,5 @@ label::before {
   width: 28px;
   height: 28px;
   float: left;
-  background-image: url(/images/kakao-logo.png);
+  background-image: url(../images/kakao-logo.png);
 }
