@@ -1,0 +1,33 @@
+body {
+  background: #F2F2F2;
+}
+
+p {
+  font-family: 'SpoqaHanSansNeo-Regular';
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  position: absolute;  
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background: white;
+  border: 1px solid #C4C4C4;
+}
+
+.loginBtn {
+  display: block;
+  margin: 0 auto;
+  line-height: 1;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+  background: #2F80ED;
+  font-family: 'SpoqaHanSansNeo-Bold';
+}
