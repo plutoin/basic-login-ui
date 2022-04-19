@@ -18,6 +18,7 @@ h2 {
 }
 
 .wrapper {
+  top: 55%;
   width: 520px;
   height: 712px;
   border-radius: 10px;
