@@ -23,3 +23,5 @@
 ### dropdown-ui
 
 [DEMO](https://plutoin.github.io/login-dropdown-practice/dropdown/index.html)
+
+<img width="618" alt="image" src="https://user-images.githubusercontent.com/66389585/163922504-c41cf5a7-f720-4d23-a9fe-2b3ffed1d864.png">
