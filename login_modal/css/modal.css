@@ -70,7 +70,7 @@ input[type="password"] {
 label {
   display: inline-block;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #767676;
 }
 
@@ -81,6 +81,7 @@ label::before {
   width: 22px;
   height: 22px;
   background-image: url(../images/check-box_empty.png);
+  background-size: 22px;
 }
 
 input[type="checkbox"] {
@@ -89,6 +90,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked + label::before {
   background-image: url(../images/check-box_check.png);
+  background-size: 22px;
 }
 
 .loginBtn {
@@ -166,7 +168,9 @@ input[type="checkbox"]:checked + label::before {
   width: 28px;
   height: 28px;
   float: left;
-  background-image: url(../images/google-logo.png);
+  background-image: url(../images/spritesheet.png);
+  background-position: -5px -5px;
+  background-size: 38px;
 }
 
 .facebookBtn {
@@ -181,7 +185,9 @@ input[type="checkbox"]:checked + label::before {
   width: 28px;
   height: 28px;
   float: left;
-  background-image: url(../images/facebook-logo.png);
+  background-image: url(../images/spritesheet.png);
+  background-position: -6px -43px;
+  background-size: 38px;
 }
 
 .naverBtn {
@@ -196,7 +202,9 @@ input[type="checkbox"]:checked + label::before {
   width: 28px;
   height: 28px;
   float: left;
-  background-image: url(../images/naver-logo.png);
+  background-image: url(../images/spritesheet.png);
+  background-position: -6px -119px;
+  background-size: 38px;
 }
 
 .kakaoBtn {
@@ -212,5 +220,7 @@ input[type="checkbox"]:checked + label::before {
   width: 28px;
   height: 28px;
   float: left;
-  background-image: url(../images/kakao-logo.png);
+  background-image: url(../images/spritesheet.png);
+  background-position: -6px -81px;
+  background-size: 38px;
 }
