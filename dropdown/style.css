@@ -55,12 +55,14 @@
 }
 
 .list-member li {
-  padding: 5px 18px;
+  padding: 5px 8px;
 }
 
 .list-member li button {
   display: block;
-  padding: 10px 0;
+  width: 100%;
+  padding: 10px 7px;
+  text-align: left;
   border: none;
   border-radius: 8px;
   cursor: pointer;
