@@ -66,10 +66,6 @@ input[type="password"] {
   margin-bottom: 16px;
 }
 
-input[type="checkbox"] {
-  display: none;
-}
-
 label {
   display: inline-block;
   font-size: 16px;
@@ -84,6 +80,14 @@ label::before {
   width: 22px;
   height: 22px;
   background-image: url(../images/check-box_empty.png);
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-image: url(../images/check-box_check.png);
 }
 
 .loginBtn {
