@@ -1,20 +1,12 @@
 @import "./reset.css";
 
-.txt-hide {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
 .txt-ellipsis {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.cont-select {
+.wrapper {
   width: 200px;
   margin: 100px auto 0;
 }
@@ -46,8 +38,15 @@
   display: block;
 }
 
+.btn-select.down {
+  background-image: url(./images/icon-Triangle-down.png);
+}
+
 .list-member {
   display: none;
+}
+
+.list-member.show {
   margin-top: 20px;
   border: 1px solid #C4C4C4;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
@@ -58,7 +57,7 @@
   padding: 5px 8px;
 }
 
-.list-member li button {
+.list-member .btn-item {
   display: block;
   width: 100%;
   padding: 10px 7px;
@@ -69,7 +68,7 @@
   background-color: #fff;
 }
 
-.list-member li button:focus,
-.list-member li button:hover {
+.list-member .btn-item:focus,
+.list-member .btn-item:hover {
   background-color: #F8E4FF;
 }
