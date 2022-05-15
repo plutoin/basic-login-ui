@@ -9,8 +9,8 @@ selectBox.addEventListener('click', () => {
 })
 
 for (let i = 0; i < itemBtn.length; i++) {
-  const item = itemBtn.item(i);
-  item.addEventListener('click', () => {
-    selectBox.innerText = item.innerText;
+  const lang = itemBtn[i];
+  lang.addEventListener('click', () => {
+    selectBox.innerText = lang.innerText;
   })
 }
